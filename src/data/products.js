@@ -1,16 +1,43 @@
-const figure1 = require('../../assets/images/figure1.png');
-const figure2 = require('../../assets/images/figure2.png');
-const figure3 = require('../../assets/images/figure3.png');
-const figure4 = require('../../assets/images/figure4.png');
-const figure5 = require('../../assets/images/figure5.png');
-const figure6 = require('../../assets/images/figure6.png');
+const figure1 = require('../../assets/images/figure1.jpg');
+const figure2 = require('../../assets/images/figure2.jpg');
+const figure3 = require('../../assets/images/figure3.jpg');
+const figure4 = require('../../assets/images/figure4.jpg');
+const figure5 = require('../../assets/images/figure5.jpg');
+const figure6 = require('../../assets/images/figure6.jpg');
+const figure7 = require('../../assets/images/figure7.jpg');
+const figure8 = require('../../assets/images/figure8.jpg');
+const figure9 = require('../../assets/images/figure9.jpg');
+const figure10 = require('../../assets/images/figure10.jpg');
+const figure11 = require('../../assets/images/figure11.jpg');
+const figure12 = require('../../assets/images/figure12.jpg');
+const figure13 = require('../../assets/images/figure13.jpg');
+const figure14 = require('../../assets/images/figure14.jpg');
+const figure15 = require('../../assets/images/figure15.jpg');
+const figure16 = require('../../assets/images/figure16.jpg');
+const figure17 = require('../../assets/images/figure17.jpg');
+const figure18 = require('../../assets/images/figure18.jpg');
+const figure19 = require('../../assets/images/figure19.jpg');
+const figure20 = require('../../assets/images/figure20.jpg');
+const figure21 = require('../../assets/images/figure21.jpg');
+const figure22 = require('../../assets/images/figure22.jpg');
+const figure23 = require('../../assets/images/figure23.jpg');
+const figure24 = require('../../assets/images/figure24.jpg');
+const figure25 = require('../../assets/images/figure25.jpg');
+const figure26 = require('../../assets/images/figure26.jpg');
+const figure27 = require('../../assets/images/figure27.jpg');
+const figure28 = require('../../assets/images/figure28.jpg');
+const figure29 = require('../../assets/images/figure29.jpg');
+const figure30 = require('../../assets/images/figure30.jpg');
+const figure31 = require('../../assets/images/figure31.jpg');
+const figure32 = require('../../assets/images/figure32.jpg');
+const figure33 = require('../../assets/images/figure33.jpg');
 
 const galleryA = [figure1, figure2, figure3];
-const galleryB = [figure2, figure4, figure5];
-const galleryC = [figure3, figure1, figure6];
-const galleryD = [figure4, figure5, figure2];
+const galleryB = [figure4, figure5, figure6];
+const galleryC = [figure7, figure8, figure9];
+const galleryD = [figure10, figure11, figure12];
 const galleryE = [figure5, figure3, figure6];
-const galleryF = [figure6, figure1, figure4];
+const galleryF = [figure13, figure14, figure15];
 
 const createProduct = ({
   id,
@@ -45,19 +72,19 @@ export const banners = [
     id: 'b1',
     title: 'Mô hình anime cao cấp',
     subtitle: 'Tuyển chọn các mẫu trưng bày đẹp, dễ phối với tủ sưu tầm tại nhà',
-    image: figure2,
+    image: figure28,
   },
   {
     id: 'b2',
     title: 'Ưu đãi nóng mỗi tuần',
     subtitle: 'Nhiều mẫu nổi bật đang giảm giá để bạn chốt đơn nhanh hơn',
-    image: figure4,
+    image: figure16,
   },
   {
     id: 'b3',
     title: 'Hàng mới về liên tục',
     subtitle: 'Bổ sung các bản resin, mecha và giới hạn cho dân sưu tầm',
-    image: figure6,
+    image: figure29,
   },
 ];
 
@@ -105,7 +132,7 @@ const productSeeds = [
     oldPrice: 8600000,
     rating: 4.6,
     sold: 92,
-    image: figure6,
+    image: figure30,
     gallery: galleryF,
     description: 'Tạo hình mạnh, góc pose rõ khối và dễ phối với các mẫu màu tối.',
   },
@@ -118,7 +145,7 @@ const productSeeds = [
     oldPrice: 9100000,
     rating: 4.7,
     sold: 88,
-    image: figure2,
+    image: figure7,
     gallery: galleryB,
     description: 'Hiệu ứng điện bao quanh nhân vật tạo cảm giác chuyển động rất bắt mắt.',
   },
@@ -131,7 +158,7 @@ const productSeeds = [
     oldPrice: 10800000,
     rating: 4.6,
     sold: 64,
-    image: figure3,
+    image: figure12,
     gallery: galleryC,
     description: 'Mẫu trưng bày khối lớn với màu sơn chuyển sắc, phù hợp không gian sáng.',
   },
@@ -145,7 +172,7 @@ const productSeeds = [
     rating: 4.9,
     sold: 71,
     featured: true,
-    image: figure5,
+    image: figure22,
     gallery: galleryE,
     description: 'Đế nham thạch và hiệu ứng lửa giúp mẫu này luôn nổi bật trong mọi góc chụp.',
   },
@@ -160,7 +187,7 @@ const productSeeds = [
     rating: 4.9,
     sold: 58,
     featured: true,
-    image: figure2,
+    image: figure8,
     gallery: galleryB,
     description: 'Phiên bản chiến đấu với hiệu ứng lửa resin dày, hợp cho fan shounen.',
   },
@@ -173,7 +200,7 @@ const productSeeds = [
     oldPrice: 12600000,
     rating: 4.6,
     sold: 77,
-    image: figure4,
+    image: figure17,
     gallery: galleryD,
     description: 'Phong cách pháp sư nữ với tông hồng sáng, rất dễ phối góc trưng bày mềm mại.',
   },
@@ -187,7 +214,7 @@ const productSeeds = [
     rating: 4.8,
     sold: 85,
     featured: true,
-    image: figure1,
+    image: figure9,
     gallery: galleryA,
     description: 'Pose tung kiếm dứt khoát cùng hiệu ứng gió, lên ảnh rất sáng sân khấu.',
   },
@@ -200,7 +227,7 @@ const productSeeds = [
     oldPrice: 10900000,
     rating: 4.5,
     sold: 69,
-    image: figure5,
+    image: figure23,
     gallery: galleryE,
     description: 'Mẫu nữ sát thủ có bố cục gọn và sắc độ đỏ đen dễ tạo điểm nhấn.',
   },
@@ -213,7 +240,7 @@ const productSeeds = [
     oldPrice: 9900000,
     rating: 4.4,
     sold: 95,
-    image: figure3,
+    image: figure13,
     gallery: galleryC,
     description: 'Trang phục biểu diễn sáng màu, hợp các set trưng bày trẻ trung và nổi bật.',
   },
@@ -228,7 +255,7 @@ const productSeeds = [
     rating: 4.8,
     sold: 62,
     featured: true,
-    image: figure6,
+    image: figure31,
     gallery: galleryF,
     description: 'Khung mecha to bản với nhiều lớp giáp và khớp máy rõ nét ở mọi góc nhìn.',
   },
@@ -241,7 +268,7 @@ const productSeeds = [
     oldPrice: 16100000,
     rating: 4.7,
     sold: 55,
-    image: figure1,
+    image: figure14,
     gallery: galleryA,
     description: 'Thiết kế thiên về giáp nặng và cảm giác lực, hợp fan mecha cổ điển.',
   },
@@ -255,7 +282,7 @@ const productSeeds = [
     rating: 4.8,
     sold: 49,
     featured: true,
-    image: figure2,
+    image: figure10,
     gallery: galleryB,
     description: 'Hiệu ứng cánh sáng và tông trắng xanh giúp mẫu này rất nổi trên nền tối.',
   },
@@ -268,7 +295,7 @@ const productSeeds = [
     oldPrice: 13900000,
     rating: 4.5,
     sold: 73,
-    image: figure4,
+    image: figure18,
     gallery: galleryD,
     description: 'Bản giáp sa mạc gọn hơn, dễ chơi với các bạn mới bắt đầu sưu tầm mecha.',
   },
@@ -281,7 +308,7 @@ const productSeeds = [
     oldPrice: 18600000,
     rating: 4.9,
     sold: 44,
-    image: figure5,
+    image: figure24,
     gallery: galleryE,
     description: 'Khối máy sắc cạnh cùng bảng màu điện, phù hợp các kệ trưng bày hiện đại.',
   },
@@ -296,7 +323,7 @@ const productSeeds = [
     rating: 4.9,
     sold: 33,
     featured: true,
-    image: figure4,
+    image: figure19,
     gallery: galleryD,
     description: 'Mẫu giới hạn có bệ ngai lớn, nhiều chi tiết dát vàng giả và bố cục rất sang.',
   },
@@ -309,7 +336,7 @@ const productSeeds = [
     oldPrice: 19900000,
     rating: 4.8,
     sold: 29,
-    image: figure5,
+    image: figure25,
     gallery: galleryE,
     description: 'Tông đen mạnh, dáng đứng cao và lưỡi hái lớn tạo cảm giác hiếm, chất sưu tầm.',
   },
@@ -322,7 +349,7 @@ const productSeeds = [
     oldPrice: 19300000,
     rating: 4.7,
     sold: 31,
-    image: figure4,
+    image: figure20,
     gallery: galleryD,
     description: 'Hiệu ứng chim lửa bạc ôm quanh nhân vật, hợp làm mẫu đầu bảng.',
   },
@@ -335,7 +362,7 @@ const productSeeds = [
     oldPrice: 18200000,
     rating: 4.6,
     sold: 38,
-    image: figure1,
+    image: figure21,
     gallery: galleryA,
     description: 'Thiết kế cổ điển cùng sách và phù văn phát sáng cho kệ trưng bày concept fantasy.',
   },
@@ -349,7 +376,7 @@ const productSeeds = [
     rating: 4.9,
     sold: 24,
     featured: true,
-    image: figure6,
+    image: figure32,
     gallery: galleryF,
     description: 'Biến thể màu giới hạn với tông vàng đen, hợp người thích phiên bản hiếm.',
   },
@@ -364,7 +391,7 @@ const productSeeds = [
     rating: 4.8,
     sold: 67,
     featured: true,
-    image: figure3,
+    image: figure15,
     gallery: galleryC,
     description: 'Phong cách điện ảnh hiện đại, giáp sáng bóng và lên đèn trưng bày rất đẹp.',
   },
@@ -377,7 +404,7 @@ const productSeeds = [
     oldPrice: 16600000,
     rating: 4.7,
     sold: 52,
-    image: figure6,
+    image: figure33,
     gallery: galleryF,
     description: 'Mẫu đứng trên mái nhà thành phố, hợp với fan thích concept tối và điện ảnh.',
   },
@@ -390,7 +417,7 @@ const productSeeds = [
     oldPrice: 13100000,
     rating: 4.6,
     sold: 83,
-    image: figure2,
+    image: figure11,
     gallery: galleryB,
     description: 'Tạo hình bật nhảy giữa đô thị, gọn mà vẫn có cảm giác chuyển động tốt.',
   },
@@ -403,7 +430,7 @@ const productSeeds = [
     oldPrice: 17800000,
     rating: 4.8,
     sold: 46,
-    image: figure5,
+    image: figure26,
     gallery: galleryE,
     description: 'Hiệu ứng sét và áo choàng bay tạo khối đẹp, rất phù hợp tủ kính cao tầng.',
   },
@@ -416,7 +443,7 @@ const productSeeds = [
     oldPrice: 13900000,
     rating: 4.5,
     sold: 74,
-    image: figure1,
+    image: figure27,
     gallery: galleryA,
     description: 'Mẫu điện ảnh dễ trưng bày, phối màu sạch và hợp nhiều phong cách setup.',
   },

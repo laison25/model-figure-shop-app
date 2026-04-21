@@ -6,7 +6,7 @@ export default function LoginScreen({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.imageSection}>
-        <Image source={require('../../assets/images/figure1.png')} style={styles.hero} resizeMode='cover' />
+        <Image source={require('../../assets/images/figure1.jpg')} style={styles.hero} resizeMode="cover" />
       </View>
       <View style={styles.formSection}>
         <Text style={styles.title}>Đăng nhập vào Modelix</Text>
